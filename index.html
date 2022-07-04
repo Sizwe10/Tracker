@@ -8,11 +8,15 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   </head>
   <body>
-         <div class="h1">
+         <div class="h1 d-grid gap-2 col-6 mx-auto">
                 <h1>Tracker Expense</h1>
-         </div> 
-         <h3>Balance : 0</h3>      
-         <div class="card text-bg-danger mb-4" style="max-width: 18rem;">
+         </div>
+         
+         <div class="h3 d-grid gap-2 col-6 mx-auto">
+                <h3>Balance : 0</h3>
+         </div>
+               
+         <div class="card text-bg-danger mb-4 d-grid gap-2 col-6 mx-auto" style="max-width: 18rem;">
                 <div class="card-header">Income</div>
                 <div class="card-body">
                   <h5 class="card-title">R</h5>
@@ -20,7 +24,7 @@
                 </div>
               </div>
 
-              <div class="card text-bg-success mb-4" style="max-width: 18rem;">
+              <div class="card text-bg-success mb-4 d-grid gap-2 col-6 mx-auto" style="max-width: 18rem;">
                 <div class="card-header">Expense</div>
                 <div class="card-body">
                   <h5 class="card-title">R</h5>
@@ -28,12 +32,16 @@
                 </div>
               </div>
  
-              <div class="inputer">
+              <div class="inputer d-grid gap-2 col-6 mx-auto">
                 <input type="text" placeholder="Enter type">
               </div>
-
-              <div inputnum>
+<br><br>
+              <div class="inputnum d-grid gap-2 col-6 mx-auto">
                 <input type="number" id="quantity" >
+              </div>
+<br><br>
+              <div class="d-grid gap-2 col-6 mx-auto">
+                <button class="btn btn-primary" type="button">Button</button>
               </div>
               
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
